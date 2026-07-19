@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# React
+node_modules/
+dist/
+
+# Spring Boot
+target/
+*.log
+
+# Environment
+.env
+.env.*
+
+# OS
+Thumbs.db
