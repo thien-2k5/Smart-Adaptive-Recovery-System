@@ -1,0 +1,240 @@
+
+--- PAGE 1 ---
+PAGE 2 – CREATE DEMO SHIPMENT 
+Purpose 
+●​ Allow users to create a simulated shipment and experience the 
+Smart Adaptive Recovery System (SARS). 
+●​ After the form is completed, the system generates a demo shipment 
+and redirects users to My Shipment. 
+Sender Information 
+●​ Sender Name (Text Field) 
+●​ Phone Number (Text Field) 
+●​ No phone number format validation is required, as this is a 
+demonstration website. 
+Receiver Information 
+●​ Receiver Name (Text Field) 
+●​ Phone Number (Text Field) 
+Customer Type (Required – Select One) 
+The selected customer type determines the recovery path if an 
+abnormal delay is detected. 
+●​ Online Shopper 
+○​ Customers purchasing products online. 
+○​ Recovery focuses on fast updates, transparency, and 
+convenient resolution. 
+●​ Online Merchant 
+○​ Online sellers managing customer orders. 
+○​ Recovery focuses on protecting business reputation, reducing 
+customer complaints, and minimizing business disruption. 
+●​ Individual Sender 
+○​ Customers sending important documents, gifts, personal 
+belongings, or one-of-a-kind items. 
+○​ Recovery focuses on personalized support and recovering the 
+original parcel whenever possible. 
+Parcel Category (Required – Select One) 
+
+--- PAGE 2 ---
+The selected parcel category determines the recovery mode. 
+●​ Commercial Goods 
+○​ Recovery Mode: Fast Replacement / Refund Support 
+●​ Personal Items 
+○​ Recovery Mode: Standard Recovery 
+●​ Important Documents 
+○​ Recovery Mode: Priority Recovery 
+○​ Features: 
+■​ Dedicated Case Manager 
+■​ Priority Investigation 
+■​ Progress Updates every 2–4 hours 
+■​ Official Confirmation Documents if the parcel is 
+confirmed lost 
+●​ One-of-a-kind Items 
+○​ Recovery Mode: Intensive Search Mode 
+○​ Features: 
+■​ Dedicated Case Manager 
+■​ Priority Investigation 
+■​ Manager-level Escalation if unresolved 
+■​ Progress Updates every 2–4 hours 
+●​ Fragile Items 
+○​ Recovery Mode: Standard Recovery 
+Cargo Insurance (Required – Select One) 
+Display a short description below each option so users 
+understand the compensation policy before creating the 
+shipment. 
+●​ Yes 
+○​ If the parcel is confirmed lost: 
+■​ Compensation = 100% of the declared parcel value, 
+according to Viettel Post Compensation Policy. 
+●​ No 
+○​ If the parcel is confirmed lost: 
+■​ Compensation = 4× the shipping fee for domestic 
+shipments, according to Viettel Post Compensation 
+Policy. 
+Primary Action 
+Create Demo Shipment 
+
+--- PAGE 3 ---
+After clicking the button: 
+●​ Generate a Tracking ID. 
+●​ Create the shipment information. 
+●​ Redirect users to My Shipment. 
+ 
+PAGE 3 – MY SHIPMENT 
+Purpose 
+●​ Display the shipment journey and simulate an abnormal delay after 
+30 seconds to demonstrate the proactive recovery process. 
+Shipment Summary 
+●​ Tracking ID 
+●​ Customer Type 
+●​ Parcel Category 
+●​ Insurance Status 
+●​ Current Status 
+●​ Estimated Delivery Time 
+Shipment Timeline 
+The shipment progresses through different delivery stages. 
+Example statuses: 
+●​ Shipment Created 
+●​ Order Confirmed 
+●​ Being Prepared by the Seller 
+●​ In Transit to Sorting Hub (An abnormal delay may occur here.) 
+●​ Arrived at Sorting Hub (An abnormal delay may occur here.) 
+●​ Out for Delivery 
+The abnormal delay may occur at different logistics stages. Once 
+an issue is detected, the shipment timeline immediately stops at 
+that stage and no further shipment progress is displayed. 
+Delay Simulation 
+After approximately 30 seconds: 
+
+--- PAGE 4 ---
+●​ The shipment stops at the current logistics stage. 
+●​ The system detects an abnormal delay automatically. 
+●​ A Recovery Case is created immediately. 
+Full-Screen Alert (Recommended) 
+Display a large modal covering most of the screen to immediately attract 
+the user's attention. 
+Optional: 
+●​ Play a soft notification sound when the alert appears. 
+Title 
+Abnormal Delay Detected 
+Message 
+●​ Your parcel has remained at the current logistics stage longer than 
+expected. 
+●​ An investigation has been started automatically. 
+●​ Recovery Case ID: RCXXXXXXXX 
+Primary Button 
+●​ View Recovery Center 
+ 
+PAGE 4 – RECOVERY CENTER 
+Purpose 
+●​ Display the complete recovery journey after an abnormal delay has 
+been detected. 
+Recovery Summary 
+●​ Recovery Case ID 
+●​ Customer Type 
+●​ Parcel Category 
+●​ Insurance Status 
+●​ Recovery Mode 
+
+--- PAGE 5 ---
+●​ Investigation Status 
+●​ Estimated Next Update 
+Investigation Timeline 
+●​ Recovery Case Created 
+●​ Warehouse Manager Notified 
+●​ Scanning Records Checked 
+●​ Storage Location Verified 
+●​ CCTV Review (if necessary) 
+●​ Staff Handling History Reviewed 
+●​ Transportation Records Reviewed 
+●​ Investigation Result 
+Notification Panel 
+Display all recovery updates in chronological order.​
+ Example: 
+●​ Investigation Started 
+●​ Investigation Team Assigned 
+●​ Investigation Progress Updated 
+●​ Estimated Next Update 
+●​ Parcel Found 
+●​ Parcel Confirmed Lost 
+ 
+Adaptive Recovery 
+Online Shopper 
+Display: 
+●​ Real-time Investigation Timeline 
+●​ Estimated Resolution Time (Example: 7 hours) 
+●​ Live Status Notifications 
+Immediately allow users to select their preferred recovery option. 
+Options: 
+●​ Continue Investigation 
+●​ Refund 
+
+--- PAGE 6 ---
+●​ Replacement (if available) 
+Replacement Option 
+●​ Available only for Online Shopper. 
+●​ The system checks product availability with the seller. 
+●​ If stock is available, a replacement shipment is created immediately. 
+●​ If the original parcel is later found, it will be returned to the seller. 
+If the parcel is confirmed lost: 
+●​ Insured Shipment → 100% Declared Value Compensation. 
+●​ Non-insured Shipment → 4× Shipping Fee Compensation. 
+Additional Customer Care: 
+●​ Free Shipping Voucher 
+●​ Loyalty Points 
+●​ Delivery Coupon 
+ 
+Online Merchant 
+Display: 
+●​ Merchant Recovery Dashboard 
+●​ Delay Reason 
+●​ Estimated Resolution Time 
+●​ Suggested Customer Response Templates 
+●​ Priority Investigation 
+●​ Automatic Shipping Fee Compensation 
+●​ Delayed Order Performance Report 
+ 
+Individual Sender 
+Display: 
+●​ Critical Parcel Recovery Mode 
+●​ Dedicated Case Manager 
+●​ Priority Warehouse Investigation 
+●​ Progress Updates every 2–4 hours 
+●​ Manager-level Escalation if unresolved 
+
+--- PAGE 7 ---
+●​ Official Confirmation Documents if the parcel is confirmed lost 
+ 
+Resolution 
+Parcel Found 
+●​ Resume Priority Delivery 
+●​ Continue Shipment Tracking 
+●​ Close the Recovery Case after Customer Confirmation 
+Parcel Confirmed Lost 
+●​ Display Compensation based on Viettel Post Compensation Policy. 
+●​ Close the Recovery Case after Customer Confirmation. 
+ 
+PAGE 5 – HELP CENTER 
+Contact Information 
+●​ Viettel Post Hotline: 1900 1515 (Use the official hotline if available; if 
+this is only for the demo, indicate that it is a placeholder.) 
+●​ Customer Support Email: cskh@viettelpost.com 
+Compensation Policy 
+Insured Shipment 
+●​ 100% compensation based on the declared parcel value (maximum 
+insured value: 100 million VND). 
+●​ 100% COD collection amount (excluding profit), maximum 30 million 
+VND per shipment. 
+Domestic Shipment without Insurance 
+●​ Compensation equals 4× the shipping fee. 
+No Compensation Applies When 
+●​ Damage is caused by the sender. 
+●​ The sender cannot provide proof of shipment or damage. 
+
+--- PAGE 8 ---
+●​ The parcel has been successfully delivered without recipient 
+complaints. 
+●​ The parcel is confiscated or destroyed according to applicable laws. 
+●​ Complaint procedures are not followed. 
+●​ Force majeure events occur. 
+References 
+●​ Postal Law (Vietnam) 
+●​ Viettel Post Compensation Policy 
+ 

@@ -1,0 +1,385 @@
+
+--- PAGE 1 ---
+Trang 1 – Trang chủ (Landing Page)- PAGE NÀY GIỐNG HÌNH VISUAL TUI CÓ ĐỂ Ó 
+Mục đích 
+Trang chủ là điểm bắt đầu của website, giới thiệu giải pháp Smart Adaptive 
+Recovery System (SARS) và giúp người dùng nhanh chóng hiểu được ý tưởng 
+của hệ thống. Giao diện cần tạo cảm giác chuyên nghiệp, hiện đại, minh bạch 
+và đáng tin cậy, đồng thời dẫn dắt người dùng bắt đầu trải nghiệm thông qua 
+nút "Tạo đơn hàng Demo". 
+ 
+1. Thanh điều hướng (Navigation Bar) 
+Thanh điều hướng cố định ở phía trên màn hình (Sticky Navigation), luôn hiển thị 
+khi người dùng cuộn trang. 
+Bên trái 
+●​ Logo Viettel Post (nhấn vào sẽ quay về Trang chủ) 
+Chính giữa 
+●​ Trang chủ 
+●​ Đơn hàng của tôi 
+●​ KIỂM TRA ĐƠN HÀNG 
+●​ Trung tâm hỗ trợ 
+Bên phải 
+●​ Chuyển đổi ngôn ngữ (EN | VI) 
+●​ Đăng nhập 
+ 
+2. Hero Banner (Khu vực giới thiệu chính) 
+Đây là phần đầu tiên người dùng nhìn thấy khi truy cập website, chiếm gần toàn 
+bộ màn hình đầu tiên. 
+Bên trái 
+Tiêu đề chính 
+Smart Adaptive Recovery System (SARS) 
+
+--- PAGE 2 ---
+Mô tả ngắn 
+Hệ thống chủ động phát hiện các dấu hiệu bất thường trong quá trình 
+vận chuyển, tự động khởi tạo quy trình xử lý, liên tục cập nhật thông 
+tin và cung cấp phương án phục hồi phù hợp trước khi khách hàng 
+cần gửi khiếu nại. 
+Bên dưới phần mô tả là 03 giá trị nổi bật của hệ thống. 
+Giá trị 1 
+Chủ động phát hiện 
+Tự động phát hiện đơn hàng có dấu hiệu bất thường trước khi khách hàng cần 
+liên hệ hỗ trợ. 
+ 
+Giá trị 2 
+Minh bạch thông tin 
+Liên tục cập nhật tiến trình điều tra và thời gian dự kiến xử lý để khách hàng luôn 
+nắm được tình trạng đơn hàng. 
+ 
+Giá trị 3 
+Phục hồi phù hợp 
+Lựa chọn phương án xử lý dựa trên loại khách hàng, loại bưu gửi và tình trạng bảo 
+hiểm của đơn hàng. 
+ 
+3. Nút hành động chính (Primary Call-to-Action) 
+Ngay bên dưới phần giới thiệu đặt một nút màu đỏ nổi bật. 
+Nội dung nút 
+Tạo đơn hàng Demo 
+Đây là nút quan trọng nhất của toàn bộ website. 
+Khi người dùng nhấn vào nút này sẽ chuyển sang trang Tạo đơn hàng để bắt đầu 
+mô phỏng. 
+
+--- PAGE 3 ---
+Hiệu ứng khi rê chuột: 
+●​ Đổ bóng nhẹ 
+●​ Màu đỏ sáng hơn 
+●​ Chuyển động mượt 
+4. Các biểu tượng thể hiện sự tin cậy 
+Đặt ngay phía dưới nút "Tạo đơn hàng Demo". 
+Bao gồm ba biểu tượng nhỏ. 
+●​ An toàn 
+●​ Minh bạch 
+●​ Tin cậy 
+Mỗi mục đi kèm một icon đơn giản để tăng tính trực quan. 
+5. Hình minh họa (Hero Illustration) 
+Phần bên phải của Hero Banner là một hình minh họa lớn giúp người xem hiểu 
+ngay ý tưởng của hệ thống. 
+Hình minh họa nên bao gồm: 
+●​ Điện thoại hiển thị màn hình theo dõi đơn hàng 
+●​ Xe giao hàng Viettel Post 
+●​ Kho vận 
+●​ Kiện hàng 
+●​ Tuyến đường vận chuyển 
+●​ Biểu tượng định vị (Location Pin) 
+●​ Một vài yếu tố công nghệ như Drone hoặc Logistics Icon 
+Bên cạnh điện thoại xuất hiện một thẻ thông báo nổi. 
+Ví dụ: 
+Đơn hàng của bạn đang được SARS theo dõi 
+Kèm biểu tượng xác nhận màu xanh để tạo cảm giác an tâm. 
+Toàn bộ hình ảnh nên theo phong cách hiện đại, sạch sẽ và thể hiện công nghệ. 
+6. Thống kê nhanh (Quick Statistics) 
+Đặt ngay bên dưới Hero Banner. 
+
+--- PAGE 4 ---
+Hiển thị 04 thẻ thông tin nằm ngang. 
+Thẻ 1 
+Đơn hàng xử lý mỗi ngày 
+Ví dụ: 
+2.4M+ 
+Thẻ 2 
+Tỷ lệ giao thành công 
+Ví dụ: 
+98.6% 
+Thẻ 3 
+Hỗ trợ khách hàng 
+24/7 
+Thẻ 4 
+Minh bạch trong xử lý 
+100% 
+Các số liệu này chỉ mang tính minh họa để giúp giao diện sinh động hơn. 
+7. SARS hoạt động như thế nào? 
+Đây là phần giúp người xem hiểu toàn bộ quy trình chỉ trong vài giây. 
+Tiêu đề: 
+SARS hoạt động như thế nào? 
+Hiển thị 04 bước nối với nhau bằng đường dẫn màu đỏ. 
+Bước 1 
+Tạo đơn hàng 
+Người dùng tạo đơn hàng và lựa chọn: 
+●​ Nhóm khách hàng 
+
+--- PAGE 5 ---
+●​ Loại bưu gửi 
+●​ Có hoặc không mua bảo hiểm 
+↓ 
+Bước 2 
+Theo dõi hành trình 
+Đơn hàng được vận chuyển qua các điểm trung chuyển và người dùng có thể 
+theo dõi trạng thái theo thời gian thực. 
+↓ 
+Bước 3 
+Tự động phát hiện bất thường 
+Khi hệ thống phát hiện đơn hàng có dấu hiệu bất thường, SARS sẽ tự động khởi 
+tạo hồ sơ xử lý và gửi thông báo đến khách hàng. 
+↓ 
+Bước 4 
+Phục hồi dịch vụ 
+Hệ thống đề xuất phương án xử lý phù hợp, liên tục cập nhật tiến trình điều tra và 
+hoàn tất quy trình phục hồi. 
+8. Điểm nổi bật của SARS 
+Hiển thị 03 thẻ giới thiệu. 
+Thẻ 1 
+Phát hiện chủ động 
+Hệ thống tự động phát hiện các trường hợp bất thường mà không cần khách 
+hàng gửi khiếu nại. 
+Thẻ 2 
+Điều tra minh bạch 
+Khách hàng luôn biết đơn hàng đang được kiểm tra ở bước nào và khi nào sẽ 
+nhận được bản cập nhật tiếp theo. 
+
+--- PAGE 6 ---
+Thẻ 3 
+Phục hồi theo từng trường hợp 
+Quy trình xử lý được cá nhân hóa dựa trên nhóm khách hàng, loại bưu gửi và tình 
+trạng bảo hiểm thay vì áp dụng một quy trình chung cho tất cả. 
+9. Footer 
+Thiết kế đơn giản, gọn gàng. 
+Bao gồm: 
+Điều hướng 
+●​ Trang chủ 
+●​ Đơn hàng của tôi 
+●​ Recovery Center 
+●​ Trung tâm hỗ trợ 
+Liên hệ 
+●​ Hotline Viettel Post 
+●​ Email hỗ trợ khách hàng 
+Chính sách 
+●​ Chính sách bồi thường 
+●​ Luật Bưu chính 
+Ngôn ngữ 
+●​ English 
+●​ Tiếng Việt 
+Bản quyền 
+© Viettel Post – Smart Adaptive Recovery System (SARS) Demo 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 7 ---
+ TRANG 2 – TẠO ĐƠN HÀNG DEMO 
+Mục đích 
+●​ Cho phép người dùng tạo một đơn hàng mô phỏng để trải nghiệm hệ 
+thống Smart Adaptive Recovery System (SARS). 
+●​ Sau khi hoàn thành biểu mẫu, hệ thống tạo đơn hàng demo và chuyển 
+sang trang Đơn hàng của tôi. 
+Thông tin người gửi: không yêu cầu đúng mẫu số điện thoại 
+●​ Họ và tên 
+●​ Số điện thoại 
+Thông tin người nhận 
+●​ Họ và tên 
+●​ Số điện thoại 
+Nhóm khách hàng (Bắt buộc – Chọn 1) (mỗi type khách hàng thì có cách xử lý 
+sau đó khác nhau) 
+●​ Online Shopper 
+○​ Khách mua sắm trực tuyến. 
+○​ Quy trình phục hồi tập trung vào cập nhật nhanh, minh bạch và giải 
+quyết thuận tiện. 
+●​ Online Merchant 
+○​ Người bán hàng trực tuyến. 
+○​ Quy trình phục hồi tập trung vào bảo vệ uy tín và giảm khiếu nại của 
+khách hàng. 
+●​ Individual Sender 
+○​ Người gửi hàng cá nhân như giấy tờ quan trọng, quà tặng hoặc đồ 
+vật có giá trị tinh thần. 
+○​ Quy trình phục hồi tập trung vào hỗ trợ cá nhân hóa và tìm lại bưu 
+gửi gốc. 
+ 
+Loại bưu gửi (Bắt buộc – Chọn 1) 
+●​ Commercial Goods 
+○​ Chế độ xử lý: Hỗ trợ hoàn tiền hoặc thay thế nhanh. 
+●​ Personal Items 
+○​ Chế độ xử lý: Quy trình phục hồi tiêu chuẩn. 
+●​ Important Documents 
+○​ Chế độ xử lý: Ưu tiên xử lý. 
+
+--- PAGE 8 ---
+○​ Bao gồm: 
+■​ Quản lý hồ sơ riêng 
+■​ Điều tra ưu tiên 
+■​ Cập nhật mỗi 2–4 giờ 
+■​ Cung cấp giấy xác nhận nếu bưu gửi được xác nhận mất 
+●​ One-of-a-kind Items 
+○​ Chế độ xử lý: Tìm kiếm chuyên sâu. 
+○​ Bao gồm: 
+■​ Quản lý hồ sơ riêng 
+■​ Điều tra ưu tiên 
+■​ Chuyển cấp quản lý nếu chưa giải quyết 
+■​ Cập nhật mỗi 2–4 giờ 
+●​ Fragile Items 
+○​ Chế độ xử lý: Quy trình phục hồi tiêu chuẩn. 
+Bảo hiểm hàng hóa ( bắt buộc chọn) - có để note quyền lợi lun he 
+●​ Có 
+○​ Nếu bưu gửi được xác nhận mất: 
+■​ Bồi thường 100% giá trị khai báo theo chính sách Viettel Post. 
+●​ Không 
+○​ Nếu bưu gửi được xác nhận mất: 
+■​ Bồi thường 4 lần cước vận chuyển theo chính sách Viettel 
+Post. 
+Nút chính 
+●​ Tạo đơn hàng Demo 
+●​ Sau khi nhấn: 
+○​ Sinh mã vận đơn. 
+○​ Tạo thông tin đơn hàng. 
+○​ Chuyển sang trang Đơn hàng của tôi. 
+ 
+TRANG 3 – ĐƠN HÀNG CỦA TÔI 
+Mục đích 
+●​ Hiển thị hành trình vận chuyển và mô phỏng tình huống bất thường sau 
+30 giây.​
+ 
+Thông tin đơn hàng 
+●​ Mã vận đơn 
+
+--- PAGE 9 ---
+●​ Nhóm khách hàng 
+●​ Loại bưu gửi 
+●​ Trạng thái bảo hiểm 
+●​ Trạng thái hiện tại 
+●​ Thời gian giao dự kiến 
+Timeline vận chuyển 
+●​ Đơn hàng đã được tạo 
+●​ Đã lấy hàng 
+●​ Đã đến bưu cục phân loại 
+●​ Đang xử lý 
+Mô phỏng 
+●​ Sau 30 giây: 
+○​ Đơn hàng dừng tại bưu cục phân loại. 
+○​ Trạng thái chuyển sang Phát hiện chậm trễ bất thường. 
+○​ Hệ thống tự động tạo hồ sơ xử lý. 
+●​ vd vẫn mô phỏng các trạng thái: đơn hàng đã được xác nhận, đơn hàng 
+đang được chuẩn bị bởi người bán, đơn hàng đang trên đường đến bưu 
+cục ( có thể phát sinh vấn đề ở đây)… đơn hàng đã đến bưu cục( có thể 
+phát sinh vấn đề ở đây), đơn hàng đang trên đường giao đến bạn​
+phát sinh vấn đề ở đâu thì dừng process ở đó luôn nha 
+Popup thông báo- tui muốn cái thông báo này to một xíu, hiện gần như full 
+screen, nếu có sound nhẹ nữa thì tuỵt (optional) 
+●​ Tiêu đề: Phát hiện chậm trễ bất thường 
+●​ Nội dung: 
+○​ Đơn hàng của bạn đã được lưu tại bưu cục lâu hơn thời gian cho 
+phép. 
+○​ Hệ thống đã tự động khởi tạo quá trình điều tra. 
+○​ Hiển thị mã hồ sơ xử lý. 
+●​ Nút: 
+○​ Xem MỤC KIỂM TRA ĐƠN HÀNG 
+ 
+TRANG 4 KIỂM TRA ĐƠN HÀNG 
+Mục đích 
+●​ Hiển thị toàn bộ quá trình phục hồi sau khi phát hiện bất thường. 
+Thông tin hồ sơ 
+
+--- PAGE 10 ---
+●​ Mã hồ sơ xử lý 
+●​ Nhóm khách hàng 
+●​ Loại bưu gửi 
+●​ Trạng thái bảo hiểm 
+●​ Chế độ phục hồi 
+●​ Trạng thái điều tra 
+●​ Thời gian cập nhật tiếp theo 
+Timeline điều tra 
+●​ Tạo hồ sơ xử lý 
+●​ Thông báo cho quản lý kho 
+●​ Kiểm tra lịch sử quét 
+●​ Kiểm tra vị trí lưu kho 
+●​ Kiểm tra CCTV (nếu cần) 
+●​ Kiểm tra lịch sử xử lý của nhân viên 
+●​ Kiểm tra lịch sử vận chuyển 
+●​ Kết quả xử lý 
+Thông báo 
+●​ Đã bắt đầu điều tra 
+●​ Đã phân công nhóm điều tra 
+●​ Cập nhật tiến độ 
+●​ Thời gian cập nhật tiếp theo 
+●​ Đã tìm thấy bưu gửi / Xác nhận mất bưu gửi 
+Logic phục hồi 
+Online Shopper 
+●​ Hiển thị: 
+○​ Timeline điều tra theo thời gian thực 
+○​ Thời gian xử lý dự kiến ( vd là 7 hour nha) 
+○​ Thông báo trạng thái trực tiếp 
+●​ Cho phép lựa chọn: ( lúc này users chọn option luôn, không cần đợi thời 
+gian nha)  
+○​ Tiếp tục điều tra 
+○​ Hoàn tiền 
+○​ Thay thế (nếu có) ( option này sẽ chỉ avai với loại hàng online 
+shopper nha, nếu chọn cái này thì bên tui check xem shop còn hàng 
+không, gửi hàng mới ngay cho khách, hàng cũ được tìm thấy sẽ 
+hoàn về shop) 
+●​ Nếu xác nhận mất: 
+○​ Có bảo hiểm → Bồi thường 100% giá trị khai báo. 
+○​ Không bảo hiểm → Bồi thường 4 lần cước vận chuyển. 
+
+--- PAGE 11 ---
+●​ Chăm sóc sau phục hồi: 
+○​ Voucher miễn phí vận chuyển 
+○​ Điểm tích lũy 
+○​ Phiếu giảm giá giao hàng 
+Online Merchant 
+●​ Merchant Recovery Dashboard 
+●​ Hiển thị lý do chậm trễ 
+●​ Thời gian xử lý dự kiến 
+●​ Mẫu phản hồi khách hàng 
+●​ Điều tra ưu tiên 
+●​ Tự động bồi hoàn cước vận chuyển 
+●​ Báo cáo đơn hàng bị chậm 
+Individual Sender 
+●​ Critical Parcel Recovery Mode 
+●​ Quản lý hồ sơ riêng 
+●​ Điều tra ưu tiên 
+●​ Cập nhật mỗi 2–4 giờ 
+●​ Chuyển cấp quản lý nếu chưa giải quyết 
+●​ Cung cấp giấy xác nhận nếu bưu gửi được xác nhận mất 
+Kết quả xử lý 
+●​ Đã tìm thấy bưu gửi 
+○​ Tiếp tục giao hàng ưu tiên. 
+○​ Tiếp tục theo dõi đơn hàng. 
+○​ Đóng hồ sơ sau khi khách hàng xác nhận. 
+●​ Xác nhận mất bưu gửi 
+○​ Hiển thị mức bồi thường theo chính sách Viettel Post. 
+○​ Đóng hồ sơ sau khi khách hàng xác nhận. 
+ 
+ TRANG 5 – TRUNG TÂM HỖ TRỢ 
+Thông tin liên hệ 
+●​ Hotline Viettel Post :19001515 ( số bịa huii) 
+●​ Email hỗ trợ khách hàng cskh@viettelpost.com.​
+ 
+Chính sách bồi thường 
+
+--- PAGE 12 ---
+●​ Có bảo hiểm: 
+○​ Bồi thường 100% giá trị khai báo (tối đa 100 triệu VNĐ). 
+○​ Bồi thường 100% tiền thu hộ COD (không bao gồm lợi nhuận, tối đa 
+30 triệu VNĐ). 
+●​ Không có bảo hiểm: 
+○​ Bồi thường 04 lần cước vận chuyển đối với bưu gửi trong nước. 
+●​ Không áp dụng bồi thường khi: 
+○​ Thiệt hại do lỗi của người gửi. 
+○​ Không chứng minh được việc gửi hoặc thiệt hại. 
+○​ Bưu gửi đã giao thành công và không có khiếu nại. 
+○​ Bưu gửi bị tịch thu hoặc tiêu hủy theo quy định pháp luật. 
+○​ Không thực hiện đúng quy trình khiếu nại. 
+○​ Xảy ra sự kiện bất khả kháng. 
+Tài liệu tham khảo 
+●​ Luật Bưu chính 
+●​ Chính sách bồi thường của Viettel Post 
+ 
