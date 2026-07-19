@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Globe, Bell } from 'lucide-react';
@@ -7,7 +6,8 @@ import CreateShipment from './pages/CreateShipment';
 import MyShipment from './pages/MyShipment';
 import RecoveryCenter from './pages/RecoveryCenter';
 import AdminDashboard from './pages/AdminDashboard';
-import { NotificationProvider, useNotification } from './context/NotificationContext';
+import HelpCenter from './pages/HelpCenter';
+import { NotificationProvider } from './context/NotificationContext';
 import { useSseClient } from './services/SseClient';
 import './i18n/i18n';
 
@@ -37,6 +37,7 @@ function AppContent() {
           <nav className="hidden md:flex gap-6 font-medium">
             <Link to="/" className={`hover:text-primary transition-colors ${location.pathname === '/' ? 'text-primary' : 'text-muted-foreground'}`}>{t('nav.home')}</Link>
             <Link to="/tracking" className={`hover:text-primary transition-colors ${location.pathname === '/tracking' ? 'text-primary' : 'text-muted-foreground'}`}>{t('nav.tracking')}</Link>
+            <Link to="/help" className={`hover:text-primary transition-colors ${location.pathname === '/help' ? 'text-primary' : 'text-muted-foreground'}`}>{t('nav.help')}</Link>
             <Link to="/admin" className={`hover:text-primary transition-colors ${location.pathname === '/admin' ? 'text-primary' : 'text-muted-foreground'}`}>{t('nav.admin')}</Link>
           </nav>
 
@@ -62,6 +63,7 @@ function AppContent() {
           <Route path="/create" element={<CreateShipment />} />
           <Route path="/tracking" element={<MyShipment />} />
           <Route path="/recovery/:caseId" element={<RecoveryCenter />} />
+          <Route path="/help" element={<HelpCenter />} />
           <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
       </main>
