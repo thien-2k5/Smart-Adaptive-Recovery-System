@@ -1,7 +1,18 @@
-import { createContext, useContext, useState, type ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
 import { AlertTriangle, ChevronRight } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { useNavigate } from 'react-router-dom';
+
+export interface NotificationItem {
+  id: number;
+  type: 'delay' | 'update' | 'info' | 'resolved';
+  title: string;
+  message: string;
+  caseId?: string;
+  trackingId?: string;
+  isRead: boolean;
+  createdAt: string;
+}
 
 interface DelayAlert {
   caseId: string;
@@ -10,26 +21,114 @@ interface DelayAlert {
 }
 
 interface NotificationContextType {
+  notifications: NotificationItem[];
+  unreadCount: number;
   triggerAlert: (alert: DelayAlert) => void;
   clearAlert: () => void;
+  markAllRead: () => void;
+  markRead: (id: number) => void;
+  clearAll: () => void;
+  addNotification: (notification: Omit<NotificationItem, 'id' | 'isRead' | 'createdAt'>) => void;
 }
 
 const NotificationContext = createContext<NotificationContextType | undefined>(undefined);
 
 export const NotificationProvider = ({ children }: { children: ReactNode }) => {
   const [activeAlert, setActiveAlert] = useState<DelayAlert | null>(null);
+  const [notifications, setNotifications] = useState<NotificationItem[]>([]);
   const navigate = useNavigate();
+
+  // Initialize with some demo notifications
+  useEffect(() => {
+    const now = new Date();
+    setNotifications([
+      {
+        id: 1,
+        type: 'delay',
+        title: 'Abnormal delay detected',
+        message: 'Your parcel VTP240719A1B2C has been stuck at the sorting hub for longer than expected. A recovery case has been opened.',
+        caseId: 'RC240719X1Y2Z',
+        trackingId: 'VTP240719A1B2C',
+        isRead: false,
+        createdAt: new Date(now.getTime() - 1000 * 60 * 5).toISOString(),
+      },
+      {
+        id: 2,
+        type: 'update',
+        title: 'Investigation update',
+        message: 'Warehouse team has started scanning the parcel history for VTP240719A1B2C.',
+        caseId: 'RC240719X1Y2Z',
+        trackingId: 'VTP240719A1B2C',
+        isRead: false,
+        createdAt: new Date(now.getTime() - 1000 * 60 * 15).toISOString(),
+      },
+      {
+        id: 3,
+        type: 'info',
+        title: 'Shipment created',
+        message: 'Your shipment VTP240719D3E4F has been successfully created and is ready for pickup.',
+        trackingId: 'VTP240719D3E4F',
+        isRead: true,
+        createdAt: new Date(now.getTime() - 1000 * 60 * 60 * 2).toISOString(),
+      },
+      {
+        id: 4,
+        type: 'resolved',
+        title: 'Recovery case resolved',
+        message: 'Recovery case RC240718M7N8O for parcel VTP240718G5H6I has been successfully resolved. Shipment delivered.',
+        caseId: 'RC240718M7N8O',
+        trackingId: 'VTP240718G5H6I',
+        isRead: true,
+        createdAt: new Date(now.getTime() - 1000 * 60 * 60 * 24).toISOString(),
+      },
+    ]);
+  }, []);
 
   const triggerAlert = (alert: DelayAlert) => {
     setActiveAlert(alert);
+    
+    // Add it to the notifications list
+    const newNotif: NotificationItem = {
+      id: Date.now(),
+      type: 'delay',
+      title: alert.title,
+      message: alert.message,
+      caseId: alert.caseId,
+      isRead: false,
+      createdAt: new Date().toISOString()
+    };
+    setNotifications(prev => [newNotif, ...prev]);
+
     // Play sound if possible
     try {
-      const audio = new Audio('/alert.mp3'); // Assuming we have an alert.mp3 in public
+      const audio = new Audio('/alert.mp3');
       audio.play().catch(e => console.log('Audio play blocked by browser', e));
-    } catch(e) {}
+    } catch {}
+  };
+
+  const addNotification = (item: Omit<NotificationItem, 'id' | 'isRead' | 'createdAt'>) => {
+    const newNotif: NotificationItem = {
+      id: Date.now(),
+      ...item,
+      isRead: false,
+      createdAt: new Date().toISOString()
+    };
+    setNotifications(prev => [newNotif, ...prev]);
   };
 
   const clearAlert = () => setActiveAlert(null);
+
+  const markAllRead = () => {
+    setNotifications(prev => prev.map(n => ({ ...n, isRead: true })));
+  };
+
+  const markRead = (id: number) => {
+    setNotifications(prev => prev.map(n => n.id === id ? { ...n, isRead: true } : n));
+  };
+
+  const clearAll = () => {
+    setNotifications([]);
+  };
 
   const handleViewCase = () => {
     if (activeAlert) {
@@ -38,8 +137,19 @@ export const NotificationProvider = ({ children }: { children: ReactNode }) => {
     }
   };
 
+  const unreadCount = notifications.filter(n => !n.isRead).length;
+
   return (
-    <NotificationContext.Provider value={{ triggerAlert, clearAlert }}>
+    <NotificationContext.Provider value={{
+      notifications,
+      unreadCount,
+      triggerAlert,
+      clearAlert,
+      markAllRead,
+      markRead,
+      clearAll,
+      addNotification
+    }}>
       {children}
       
       {/* FULL SCREEN ALERT MODAL */}
