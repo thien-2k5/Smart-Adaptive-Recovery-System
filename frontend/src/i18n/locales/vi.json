@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "create": "Tạo đơn",
+    "tracking": "Theo dõi đơn hàng",
+    "admin": "Quản trị viên"
+  },
+  "landing": {
+    "title": "Smart Adaptive Recovery System",
+    "subtitle": "Giải pháp phát hiện và xử lý sự cố giao hàng tự động",
+    "start": "Tạo đơn hàng Demo"
+  }
+}

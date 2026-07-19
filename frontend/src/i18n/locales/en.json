@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "create": "Create Demo",
+    "tracking": "Tracking",
+    "admin": "Admin"
+  },
+  "landing": {
+    "title": "Smart Adaptive Recovery System",
+    "subtitle": "Automated incident detection and recovery solution",
+    "start": "Create Demo Shipment"
+  }
+}
